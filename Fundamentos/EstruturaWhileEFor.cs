@@ -10,14 +10,30 @@ namespace CursoCSharp.Fundamentos
     {
         public static void Executar()
         {
-            int contador = 1;
 
-            while(contador <= 10)
+            for(int contador = 1;contador < 10; contador++)
             {
-
                 Console.WriteLine(contador);
-                contador ++
             }
+
+
+
+
+            //    Console.WriteLine("Até quanto vc qr contar?");
+            //    int.TryParse(Console.ReadLine(),out int valor)
+
+            //   Console.WriteLine("Qual o valor dos saltos?");
+            //   int.TryParse(Console.ReadLine(), out int saltos);
+
+            //   int contador = 1;
+
+            //    while (contador <= valor)
+            //    {
+
+            //    Console.WriteLine(contador);
+            //   contador += saltos;
+
+             // }
 
 
         }
